@@ -117,6 +117,11 @@ set ruler " Always show current positions along the bottom
 set backspace=indent,eol,start
 set so=7 "距下面的行数为7
 colorscheme desert
+
+highlight PmenuSel ctermbg=lightblue            "vim console中选中背景
+highlight Pmenu    guibg=darkgrey  guifg=black  "Pmenu 是所有项的配色，
+highlight PmenuSel guibg=lightgrey guifg=black  "PmenuSel 是选中项的配色，guibg 和 guifg 分别对应背景色和前景色。
+
 set tabstop=4 " tab spacing (settings below are just to unify it)
 set softtabstop=4 " unify
 set shiftwidth=4 " unify
